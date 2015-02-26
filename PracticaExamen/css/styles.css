@@ -1,0 +1,120 @@
+body{
+    font-family: Arial;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+ul{
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+/*-------Dropdown --------*/
+
+.dropdown{
+    overflow: hidden;
+}
+
+.dropdown li{
+    display: block;
+    float: left;
+    background: #388E3C;  
+    width: 20%;
+    text-align: center;
+}
+
+.dropdown li a{
+    display: block;
+    padding: 10px;
+}
+
+.dropdown li a:hover{
+    background:#4CAF50;
+}
+
+.dropdown li .hiddenMenu{
+    display: none;
+}
+
+.dropdown .showMenu{
+    position: absolute;
+    width: 252px;
+}
+
+.dropdown .showMenu li{
+    display: block;
+    float: none;
+    width: 100%;
+
+}
+
+/*-------Accordeon --------*/
+
+.accordeon{
+    overflow: hidden;
+    width: 30%;
+}
+
+.accordeon li{
+    display: block;
+    background: #7B1FA2; 
+  
+}
+
+.accordeon li a{
+    padding: 10px;
+    display: block;
+     border-bottom: 2px solid #fff;
+}
+
+.accordeon li a span{
+    float: right;
+}
+
+.accordeon .showMenu li{
+    display: block;
+    background:#9C27B0;
+
+}
+
+.accordeon .showMenu li a{
+    border: none
+}
+
+.accordeon li .hiddenMenu{
+    display: none;
+}
+
+
+/*-------Hamburguer --------*/
+img{
+width: 100%;
+}
+
+.hamburguerMenu a{
+ width: 10%;
+}
+
+#hamburguer{
+    width: 20%;
+}
+
+#hamburguer.hiddenMenu{
+    display: none;
+}
+
+#hamburguer.showMenu{
+    display: block;
+}
+
+#hamburguer li{
+    background: #000;
+
+}
+
